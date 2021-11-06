@@ -1,0 +1,221 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+/* /FONTS */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main: orange;
+  --bg: #0B1218;
+  --bg-body:#131D28;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: var(--bg);
+  width: 250px;
+  transition: width 300ms;
+}
+
+.brand {
+  padding: .5rem 1rem;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  height: 70px;
+  color: var(--main);
+}
+
+.brand h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+.brand span {
+  font-size: 1.8rem;
+  margin-right: .5rem;
+}
+
+.side-user {
+  margin: 1.8rem 0rem;
+}
+
+.side-img {
+  /* background-image: url(./assets/img/001-man.png); */
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border: 4px solid #3e454d;
+  border-radius: 50%;
+}
+
+.user {
+  text-align: center;
+  color: #fff;
+  margin-top: .5rem;
+}
+
+.user small {
+  display: inline-block;
+  color:  var(--main);
+}
+
+.sidemenu {
+  padding: .5rem;
+  overflow-y: auto;
+}
+
+.sidemenu li {
+  
+  margin-bottom: 0.9rem;
+}
+
+.sidemenu a {
+  color: #fff;
+  font-size: .85rem;
+  display: flex;
+  padding: .4rem 0rem;
+  align-items: center;
+}
+
+.sidemenu a span:first-child {
+  font-size: 1.3rem;
+  padding: 0rem .6rem;
+}
+
+.sidemenu a.active {
+  background: var(--main);
+  color: #fff;
+  border-radius: 4px;
+  height: 45px;
+}
+
+.sidebar-wrapper ul li {
+  list-style: none;
+}
+
+
+.main-content {
+  margin-left: 250px;
+  min-height: 100vh;
+  background: var(--bg-body);
+  padding: 0.5rem 1rem;
+  transition: margin-left 300ms;
+}
+
+
+
+
+/* /SIDEBAR */
+
+
+/* Header */
+
+.addTask-wrapper {
+  background-color: var(--bg);
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 30px;
+  border-radius:  8px;
+  -webkit-border-radius:  8px;
+  -moz-border-radius:  8px;
+  box-shadow: 1px 1px 25px 1px rgba(8, 10, 48, 0.534);
+}
+
+.addTask-title h3 {
+  font-family: "Roboto";
+  font-weight: light;
+  letter-spacing: 1.25px;
+}
+
+
+/* /Header */
+
+
+/* CARD */
+
+.card-wrapper {
+  font-family: 'Roboto';
+}
+
+.card-wrapper .card {
+  background-color: var(--bg);
+  color: white;
+}
+
+.card h4 {
+  color: orange;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+
+/* /CARD */
+
+/* CARD */
+
+.card-wrapper {
+  font-family: 'Roboto';
+  
+}
+
+.card-wrapper .card {
+  background-color: var(--bg);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.card h3 {
+  color: orange;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+}
+
+.btn-edit-task a {
+  text-decoration: none;
+  color: rgb(209, 209, 209) !important;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 0.95rem;
+}
+
+.card-list-items ul.user-constants {
+  padding-left: 0;
+}
+
+.card-list-items ul li {
+  list-style: none;
+  border-bottom: 1px solid rgba(209, 209, 209, 0.3);
+}
+
+/* /CARD */

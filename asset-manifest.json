@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fitnfit-sp2-react/static/css/main.6a6f330a.chunk.css",
+    "main.js": "/fitnfit-sp2-react/static/js/main.8ec0ee16.chunk.js",
+    "main.js.map": "/fitnfit-sp2-react/static/js/main.8ec0ee16.chunk.js.map",
+    "runtime-main.js": "/fitnfit-sp2-react/static/js/runtime-main.1a4cc8fe.js",
+    "runtime-main.js.map": "/fitnfit-sp2-react/static/js/runtime-main.1a4cc8fe.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/fitnfit-sp2-react/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.08829e31.chunk.js": "/fitnfit-sp2-react/static/js/2.08829e31.chunk.js",
+    "static/js/2.08829e31.chunk.js.map": "/fitnfit-sp2-react/static/js/2.08829e31.chunk.js.map",
+    "static/js/3.2031eb77.chunk.js": "/fitnfit-sp2-react/static/js/3.2031eb77.chunk.js",
+    "static/js/3.2031eb77.chunk.js.map": "/fitnfit-sp2-react/static/js/3.2031eb77.chunk.js.map",
+    "index.html": "/fitnfit-sp2-react/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/fitnfit-sp2-react/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.6a6f330a.chunk.css.map": "/fitnfit-sp2-react/static/css/main.6a6f330a.chunk.css.map",
+    "static/js/2.08829e31.chunk.js.LICENSE.txt": "/fitnfit-sp2-react/static/js/2.08829e31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a4cc8fe.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.08829e31.chunk.js",
+    "static/css/main.6a6f330a.chunk.css",
+    "static/js/main.8ec0ee16.chunk.js"
+  ]
+}
